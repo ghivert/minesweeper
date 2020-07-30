@@ -7,6 +7,7 @@ Le but du projet est d’implémenter le jeu du démineur. Il n’y a rien à in
 ```bash
 git clone git@github.com:ghivert/minesweeper.git
 cd minesweeper
+yarn global add elm-app # npm install -g elm-app
 yarn install # npm install
 ```
 
