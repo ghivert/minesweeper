@@ -7,8 +7,17 @@ Le but du projet est d’implémenter le jeu du démineur. Il n’y a rien à in
 ```bash
 git clone git@github.com:ghivert/minesweeper.git
 cd minesweeper
-yarn global add elm-app # npm install -g elm-app
+yarn global add create-elm-app # npm install -g create-elm-app
 yarn install # npm install
+```
+
+# En cas de bug
+
+```bash
+yarn global remove elm-app create-elm-app
+rm -rf node_modules
+yarn global add create-elm-app
+yarn install
 ```
 
 # Instructions
@@ -17,7 +26,7 @@ Pour rappel, le démineur est un jeu sur une grille consistant à cliquer sur de
 
 Lors du clic sur une case, celle-ci peut être vide, avoir un numéro, ou une bombe.
 
-Si la case est vide, alors il faut la révéler et révélér toutes les cases connectées aux alentours.
+Si la case est vide, alors il faut la révéler et révéler toutes les cases connectées aux alentours.
 Si la case contient un numéro, alors il faut la révéler.
 Si la case contient une bombe, alors il faut arrêter le jeu et révéler tout le plateau.
 
