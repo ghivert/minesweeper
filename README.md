@@ -32,6 +32,13 @@ Si la case contient une bombe, alors il faut arrêter le jeu et révéler tout l
 
 Le numéro dans les cases numérotés correspond aux nombres de bombes adjacentes dans toutes les directions.
 
+## Bonus
+
+- Ajouter un moyen de sauvegarder / restaurer sa progression.
+- Ajouter un moyen de comptabiliser son score (temps passé, cases cliquées).
+- Ajouter un système d'indices quand on ne sait pas quoi jouer.
+- Ce qui vous inspire !
+
 # Un exemple ?
 
 On trouve de nombreux démineurs en ligne : [comme ici](http://minesweeperonline.com/) ou encore [directement sur Google](https://www.google.com/search?q=minesweeper&oq=minesweeper&aqs=chrome..69i57j46j0l2j46j0l3.1466j0j7&sourceid=chrome&ie=UTF-8).
