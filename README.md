@@ -11,6 +11,12 @@ yarn global add create-elm-app # npm install -g create-elm-app
 yarn install # npm install
 ```
 
+# Le lancer
+
+```bash
+yarn start # npm start
+```
+
 # En cas de bug
 
 ```bash
